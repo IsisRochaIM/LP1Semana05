@@ -2,7 +2,10 @@
 
 namespace LevelOne
 {
-    public class Program
+    /// <summary>
+    /// The MainIsHere class contains the entry point of the application.
+    /// </summary>
+    public class MainIsHere
     {
         private static void Main(string[] args)
         {

@@ -10,6 +10,11 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP!");
+            Console.WriteLine(someMethod());
+        }
+        private static string someMethod()
+        {
+            return "This is a method that returns a string.";
         }
     }
 }

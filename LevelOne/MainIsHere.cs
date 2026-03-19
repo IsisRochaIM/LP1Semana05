@@ -2,12 +2,11 @@
 
 namespace LevelOne
 {
-<<<<<<< HEAD
+
     /// <summary>
     /// The MainIsHere class contains the entry point of the application.
     /// </summary>
-=======
->>>>>>> testing
+
     public class MainIsHere
     {
         /// <summary>
@@ -17,6 +16,7 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP!");
+            Console.WriteLine("Bad day");
             Console.WriteLine(someMethod());
         }
         /// <summary>

@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="DungeonStats/DungeonStats.csproj" />
   <Project Path="LevelOne/LevelOne.csproj" />
 </Solution>

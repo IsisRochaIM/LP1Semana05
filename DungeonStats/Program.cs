@@ -8,10 +8,21 @@ namespace DungeonStats
         private static void Main(string[] args)
         {
             int val1 = int.Parse(args[0]);
-            int val2 = int.Parse(args[1]);
+            int val2;
 
             int damage1 = Damage(val1);
+            if (args.Length >= 2)
+            {
+                val2 = int.Parse(args[1]);
+            }
+            else
+            {
+                val2 = 2;
+            }
+            
+            
             int damage2 = Damage(val1, val2);
+            
             int critDamage = CriticalHit(damage2);
 
             var table = new Table();
